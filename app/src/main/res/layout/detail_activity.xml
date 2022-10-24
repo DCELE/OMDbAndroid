@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
             android:text="Vote rate"
             android:textColor="#000"
             app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
             android:textAlignment="textEnd"
             android:text="Release date"
             android:textColor="#000"
@@ -60,20 +60,20 @@
             android:text="Movie title"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/movieRate" />
+            app:layout_constraintTop_toBottomOf="@+id/movieRate"/>
 
         <TextView
             android:id="@+id/synopsis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
             android:text="Synopsis"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/movieTitle" />
+            app:layout_constraintTop_toBottomOf="@+id/movieTitle"/>
 
         <TextView
             android:id="@+id/movieSynosis"
@@ -85,7 +85,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/synopsis" />
+            app:layout_constraintTop_toBottomOf="@+id/synopsis"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

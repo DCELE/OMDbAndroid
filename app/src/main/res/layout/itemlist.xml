@@ -42,8 +42,7 @@
         android:layout_below="@id/moviePosterMain"
         android:layout_marginTop="8dp"
         app:dividerThickness="1dp"
-        app:dividerColor="@color/grey"
-        />
+        app:dividerColor="@color/grey"/>
 
 
 </RelativeLayout>
